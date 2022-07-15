@@ -14,7 +14,9 @@ public class QueryProcessor {
         } else if (query.contains("name")) {
            return "Zuza";
         } else if (query.contains("numbers")) {
-            return "20131";
+            return "131";
+        } else if (query.contains ("13")) {
+            return "20";
         } else {
             // TODO extend the programm here
             return "";
